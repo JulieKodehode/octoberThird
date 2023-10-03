@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(253, 209, 215);
+}
+
+.hidden {
+	height: 500px;
+	width: 500px;
+	cursor: pointer;
+}
+
+.hidden:hover {
+	background-image: url("october3rd.webp");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
